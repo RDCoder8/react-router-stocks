@@ -1,19 +1,16 @@
-import { StrictMode } from "react";
-import ReactDOM from "react-dom";
-import "./style.css";
-import App from "./App";
-//IMPORT BrowserRouter and rename it to Router
-// {BrowserRoute}
-//importing like this means import BrowserRouter and call it the same name
-import { BrowserRouter as Router } from "react-router-dom";
-//this syntax is renaming BrowserRouter to Router
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './style.css';
+import App from './App';
+//This line is renaming BrowserRouter to Router for use in the code
+import {BrowserRouter as Router} from "react-router-dom"
 
-//Wrap the App Component with the Router component to enable the router features
-ReactDOM.render(
-  <StrictMode>
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    {/* Must make sure App is wrapped in Router for functionality to work! */}
     <Router>
-      <App />
+        <App />
     </Router>
-  </StrictMode>,
-  document.getElementById("root")
+  </React.StrictMode>
 );
