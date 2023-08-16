@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import stocks from "../data"
 
-export default function Prices(props){
+export default function Dashboard(props){
     return (
         <div className="stocks">
             {/* Mapping over the stock array and singularly printing links to stocks themselves to the DOM */}
