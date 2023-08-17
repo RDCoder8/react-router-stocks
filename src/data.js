@@ -1,4 +1,3 @@
-//This is an array of objects that contains stock items
 
 const stocks = [
     {name: "Apple Inc.", symbol: "AAPL", lastPrice: 140.64, change: -0.280000000000001, high: 141.74, low: 140.35, open: 141.5},
@@ -8,5 +7,4 @@ const stocks = [
     {name: "Oracle Corporation", symbol: "ORCL", lastPrice: 44.65, change: -0.300000000000004, high: 45.09, low: 44.575, open: 44.91},
     {name: "Intel Corporation", symbol: "INTL", lastPrice: 36.16, change: -0.370000000000005, high: 36.78, low: 36.125, open: 36.58}
 ]
-//exporting stocks to Stock.js and Dashboard.js
 export default stocks
