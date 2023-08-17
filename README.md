@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+DEPLOYED BY NETLIFY (https://frabjous-sorbet-a551da.netlify.app/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
